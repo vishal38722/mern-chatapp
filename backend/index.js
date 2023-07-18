@@ -25,8 +25,8 @@ const server = app.listen(process.env.PORT || 4000, () =>
 );
 const io = socket(server, {
   cors: {
-    origin: "http://localhost:3000",
-    // origin: "https://v-chat-front.onrender.com",
+    // origin: "http://localhost:3000",
+    origin: "https://vchat-sjik.onrender.com",
     credentials: true,
   },
 });
